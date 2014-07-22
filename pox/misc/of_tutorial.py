@@ -21,8 +21,8 @@ learning switch.
 It's roughly similar to the one Brandon Heller did for NOX.
 """
 
-from Mininet.net import Mininet
-#import pox.openflow.libopenflow_01 as of
+from pox.core import core
+import pox.openflow.libopenflow_01 as of
 
 log = core.getLogger()
 
