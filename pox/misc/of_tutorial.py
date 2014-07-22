@@ -24,7 +24,7 @@ It's roughly similar to the one Brandon Heller did for NOX.
 from mininet.topo import Topo
 
 class MyTopo( Topo ):
-    "Simple topology example."
+    "Simple topology example done by my self."
 
     def __init__( self ):
         "Create custom topo."
